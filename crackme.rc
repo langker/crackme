@@ -1,0 +1,197 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\crackme.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""l.chs\\afxres.rc""          // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\crackme.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_CRACKME_DIALOG DIALOGEX 0, 0, 275, 166
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "langker作品 QQ自己找"
+FONT 9, "宋体"
+BEGIN
+    EDITTEXT        IDC_EDIT1,35,7,100,13,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT2,35,34,101,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "NOW,CHECK ME!",IDC_BUTTON3,1,48,135,18,NOT WS_VISIBLE
+    CTEXT           "NAME:",IDC_STATIC,1,6,33,12,SS_CENTERIMAGE
+    CTEXT           "CODE:",IDC_STATIC,3,34,29,12,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT4,55,80,80,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT5,55,95,80,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT6,55,110,80,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT7,55,125,80,15,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT8,55,65,80,15,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "you are so great!now,check me to crack!",IDC_BUTTON4,0,
+                    140,135,21,BS_MULTILINE | NOT WS_VISIBLE
+    LTEXT           "what do you think of me",IDC_STATIC,5,70,49,19
+    CONTROL         "cool!",IDC_RADIOcool,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,0,92,45,13
+    CONTROL         "best!",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,0,103,45,
+                    13
+    CONTROL         "rabish!",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON,0,125,
+                    45,13
+    CONTROL         "fool!",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,0,115,45,
+                    13
+    GROUPBOX        "if you are a boy....",IDC_STATIC,142,8,127,67
+    GROUPBOX        "if you are girl...",IDC_STATIC,142,89,127,67
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,150,20,93,19
+    CONTROL         "IPAddress1",IDC_IPADDRESS1,"SysIPAddress32",WS_TABSTOP,
+                    149,42,90,19
+    CONTROL         "温柔",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    150,104,32,14
+    CONTROL         "贤惠",IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    150,119,32,14
+    CONTROL         "善良",IDC_CHECK3,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    150,133,32,14
+    PUSHBUTTON      "now\ntry\nit!",IDC_BUTTON5,242,36,21,32,BS_MULTILINE | 
+                    NOT WS_VISIBLE
+    CONTROL         "美丽",IDC_CHECK4,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    185,104,32,14
+    CONTROL         "体贴",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    185,119,32,14
+    CONTROL         "聪慧",IDC_CHECK6,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,
+                    185,133,32,14
+    PUSHBUTTON      "now\ncrack\nme!",IDC_BUTTON6,225,100,38,50,BS_MULTILINE
+    PUSHBUTTON      "about...",IDC_BUTTON7,143,74,125,14,NOT WS_VISIBLE
+    EDITTEXT        IDC_EDIT3,241,15,22,15,ES_AUTOHSCROLL
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080404B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "crackme Microsoft 基础类应用程序\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "crackme\0"
+            VALUE "LegalCopyright", "版权所有 (C) 2010\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "crackme.EXE\0"
+            VALUE "ProductName", "crackme 应用程序\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 1200
+    END
+END
+
+#endif    // !_MAC
+
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE 4, 2
+#pragma code_page(936)
+#endif //_WIN32
+#include "res\crackme.rc2"  // non-Microsoft Visual C++ edited resources
+#include "l.chs\afxres.rc"          // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
